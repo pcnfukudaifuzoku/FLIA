@@ -1,6 +1,6 @@
 @import url(normalise.css);
 @charset "UTF-8";
-.home {
+header {
   background-color: rgb(145, 200, 100);
 }
 .activities {
