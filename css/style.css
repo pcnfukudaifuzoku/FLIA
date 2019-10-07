@@ -1,0 +1,14 @@
+@import url(normalise.css);
+@charset "UTF-8";
+.home {
+  background-color: rgb(145, 200, 100);
+}
+.activities {
+  background-color: rgb(33, 203, 246);
+}
+.viewAll {
+  background-color: #2096f3;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
