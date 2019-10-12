@@ -8,10 +8,10 @@ h1 {
 }
 nav a {
   text-decoration: none;
-  color: rgb(78, 174, 198);
+  color: rgb(45, 140, 163);
 }
 main {
-  background-color: rgb(223, 193, 158);
+  background-color: rgb(233, 203, 168);
 }
 .introduction {
   clear: left;
@@ -24,6 +24,7 @@ main {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
   text-decoration: none;
   padding: 30px;
+  margin: 30px;
 }
 footer {
   background-color: rgb(255, 158, 0);
