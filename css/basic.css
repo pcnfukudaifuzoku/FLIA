@@ -14,6 +14,7 @@ main {
   background-color: rgb(223, 193, 158);
 }
 .introduction {
+  clear: left;
   background-color: rgb(97, 216, 246);
 }
 .viewAll {
