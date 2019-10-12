@@ -1,8 +1,5 @@
 @import url(normalise.css);
 @charset "UTF-8";
-* {
-  background-color: rgb(223, 193, 158);
-}
 header {
   background-color: rgb(163, 226, 112);
 }
@@ -12,6 +9,9 @@ h1 {
 nav a {
   text-decoration: none;
   color: rgb(78, 174, 198);
+}
+main {
+  background-color: rgb(223, 193, 158);
 }
 .introduction {
   background-color: rgb(97, 216, 246);
