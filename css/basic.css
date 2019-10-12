@@ -1,14 +1,14 @@
 @import url(normalise.css);
 @charset "UTF-8";
+* {
+  background-color: rgb(223, 193, 158)
+}
 header {
-  background-color: rgb(145, 200, 100);
+  background-color: rgb(163, 226, 112);
 }
 nav a {
   text-decoration: none;
-  color: rgb(88, 196, 223);
-}
-main {
-  background-color: rgb(223, 193, 158)
+  color: rgb(78, 174, 198);
 }
 .introduction {
   background-color: rgb(97, 216, 246);
@@ -19,7 +19,8 @@ main {
   border-radius: 3px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
   text-decoration: none;
+  padding: 30px;
 }
 footer {
-  background-color: rgb(255, 158, 0)
+  background-color: rgb(255, 158, 0);
 }
