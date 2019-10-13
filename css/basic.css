@@ -6,7 +6,8 @@ body {
 }
 header {
   background-color: rgb(163, 226, 112);
-  padding: 1px
+  padding: 1px;
+  width: 100%;
 }
 h1 {
   font-family: 'Shrikhand', serif;
