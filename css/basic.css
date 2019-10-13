@@ -2,11 +2,15 @@
 @charset "UTF-8";
 header {
   background-color: rgb(163, 226, 112);
+  margin-bottom: 0
 }
 h1 {
   font-size: 24px;
   margin: 0;
   float: left;
+}
+.name {
+  clear: left;
 }
 nav a {
   text-decoration: none;
@@ -15,7 +19,7 @@ nav a {
   padding: 10px;
 }
 main {
-  background-color: rgb(233, 203, 168);
+  background-color: rgb(247, 216, 179);
 }
 .introduction {
   clear: left;
@@ -30,5 +34,5 @@ main {
   padding: 15px;
 }
 footer {
-  background-color: rgb(255, 158, 0);
+  background-color: rgb(97, 216, 246);
 }
