@@ -15,11 +15,13 @@ h1 {
 nav a {
   text-decoration: none;
   color: rgb(0, 157, 195);
+  border-top: 1px solid rgb(0, 157, 195);
   border-right: 1px solid rgb(0, 157, 195);
   padding: 1 10px;
 }
 main {
   background-color: rgb(255, 236, 213);
+  padding: 15px
 }
 .introduction {
   clear: left;
@@ -35,4 +37,7 @@ main {
 }
 footer {
   background-color: rgb(97, 216, 246);
+}
+a:hover {
+  color: rgb(255, 170, 0);
 }
