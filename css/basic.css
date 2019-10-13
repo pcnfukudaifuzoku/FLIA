@@ -15,9 +15,8 @@ h1 {
 nav a {
   text-decoration: none;
   color: rgb(0, 157, 195);
-  border-top: 1px solid rgb(0, 157, 195);
-  border-right: 1px solid rgb(0, 157, 195);
-  padding: 1 10px;
+  border: 1px 1px 0 solid rgb(0, 157, 195);
+  padding: 1px 10px;
 }
 main {
   background-color: rgb(255, 236, 213);
@@ -40,4 +39,7 @@ footer {
 }
 a:hover {
   color: rgb(255, 170, 0);
+}
+nav a:active {
+  border: 1px 1px 0 groove rgb(0, 157, 195);
 }
