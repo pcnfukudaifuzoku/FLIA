@@ -3,7 +3,6 @@
 @charset "UTF-8";
 header {
   background-color: rgb(163, 226, 112);
-  margin-bottom: 0;
 }
 body {
   font-family: 'Noto Serif JP', serif;
@@ -11,10 +10,8 @@ body {
 h1 {
   font-family: 'Shrikhand', serif;
   font-size: 48px;
-  margin: 0;
 }
 nav a {
-  font-family:
   text-decoration: none;
   color: rgb(0, 157, 195);
   border-right: 1px solid rgb(0, 157, 195);
