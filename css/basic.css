@@ -10,6 +10,7 @@ h1 {
 }
 header img {
   float: right;
+  margin: 0
 }
 nav a {
   text-decoration: none;
