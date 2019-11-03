@@ -4,9 +4,12 @@
 body {
   font-family: 'Noto Serif JP', serif;
 }
+a:hover {
+  color: rgb(255, 170, 0);
+}
 header {
   background-color: rgb(163, 226, 112);
-  padding: 1px;
+  padding: 6px;
   width: 100%;
 }
 h1 {
@@ -16,9 +19,19 @@ h1 {
 nav a {
   text-decoration: none;
   color: rgb(0, 157, 195);
-  border: 1px solid rgb(0, 157, 195);
+  border-right: 1px solid rgb(0, 157, 195);
+  padding: 6px 10px;
+  margin: 0;
+}
+.selected {
+  border: 5px inset rgb(97, 216, 246);
   border-bottom: none;
-  padding: 1px 10px;
+  padding: 1px 5px 6px 6px;
+}
+nav a:active {
+  border: 5px inset rgb(97, 216, 246);
+  border-bottom: none;
+  padding: 1px 5px 6px 6px;
 }
 main {
   background-color: rgb(255, 236, 213);
@@ -27,20 +40,14 @@ main {
 .introduction {
   background-color: rgb(97, 216, 246);
 }
-.viewAll {
-  background-color: #2096f3;
+.view {
+  background-color: rgb(68, 198, 231);
   color: #fff;
   border-radius: 3px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .4);
   text-decoration: none;
   padding: 15px;
 }
 footer {
   background-color: rgb(97, 216, 246);
-}
-a:hover {
-  color: rgb(255, 170, 0);
-}
-nav a:active {
-  border: 1px 1px 0 groove rgb(0, 157, 195);
 }
