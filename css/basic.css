@@ -54,6 +54,9 @@ main {
 .view:active {
   box-shadow: none;
 }
+.download {
+  background-color: rgb(163, 226, 112);
+}
 footer {
   background-color: rgb(97, 216, 246);
 }
