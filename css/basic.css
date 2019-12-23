@@ -34,7 +34,7 @@ nav a {
   border-right: 1px solid rgb(0, 157, 195);
   padding: 6px 10px;
 }
-.selected {
+nav .selected {
   border: 5px inset rgb(97, 216, 246);
   border-bottom: none;
   padding: 1px 5px 6px 6px;
@@ -71,4 +71,9 @@ main {
 }
 footer {
   background-color: rgb(97, 216, 246);
+}
+footer .selected {
+  border: 5px inset rgb(140, 226, 247);
+    text-decoration: none;
+    padding: 1px 5px;
 }
