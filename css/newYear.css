@@ -1,0 +1,16 @@
+header {
+  color: rgb(84, 172, 37);
+  background-color: rgb(255, 194, 0);
+  padding: 6px;
+  width: 100%;
+}
+h1 {
+  color: rgb(84, 172, 37);
+}
+main {
+  background-color: white;
+  padding: 15px
+}
+footer {
+  background-color: rgb(195, 162, 118);
+}
