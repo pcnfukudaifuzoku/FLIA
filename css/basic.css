@@ -9,6 +9,10 @@ div {
   padding: 1em;
   margin: 1em 0;
 }
+section {
+  padding: 1em;
+  margin: 1em 0;
+}
 a:hover {
   color: rgb(255, 170, 0) !important;
 }
@@ -41,15 +45,18 @@ nav a:active {
   border-bottom: none;
   padding: 1px 5px 6px 6px;
 }
+body>main {
+  padding: 0;
+}
 main {
   background-color: rgb(255, 236, 213);
-  padding: 15px
 }
 .opinionsOnTop a {
   text-decoration: none;
   color: rgb(1, 184, 245);
 }
 .introduction {
+  width: 100%;
   background-color: rgb(97, 216, 246);
 }
 .view {
@@ -71,6 +78,6 @@ footer {
 }
 footer .selected {
   border: 5px inset rgb(140, 226, 247);
-    text-decoration: none;
-    padding: 1px 5px;
+  text-decoration: none;
+  padding: 1px 5px;
 }
