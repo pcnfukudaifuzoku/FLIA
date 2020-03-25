@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(normalise.css);
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|Shrikhand&display=swap');
 body {
   font-family: 'Noto Serif JP', serif;
